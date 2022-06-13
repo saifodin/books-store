@@ -1,0 +1,168 @@
+1 -----------------------
+Atomic Habits
+Social Psychology
+https://m.media-amazon.com/images/I/513Y5o-DYtL.jpg
+192
+English
+James Clear
+james.clear@gmail.com
+
+2 -----------------------
+A Promised Land
+Biographies
+https://m.media-amazon.com/images/I/41N0ibSKKyL.jpg
+216
+English
+Barack Obama
+ObamaBarack@gmail.com
+
+3 -----------------------
+Will
+Biographies
+https://m.media-amazon.com/images/I/61gS6EWmWwL.jpg
+311
+English
+Will Smith
+willSmith@gmail.com
+
+4 -----------------------
+Cracking the Coding Interview
+Job Interviewing
+https://images-na.ssl-images-amazon.com/images/I/41oYsXjLvZL._SX348_BO1,204,203,200_.jpg
+230
+English
+Gayle Laakmann McDowell
+gayle.l@gmail.com
+
+5 -----------------------
+Introduction to Algorithms
+Computer Programming
+https://images-na.ssl-images-amazon.com/images/I/41T0iBxY8FL._SX440_BO1,204,203,200_.jpg
+219
+English
+The MIT Press
+mitPress@mit.com
+
+6 -----------------------
+Head First Design Patterns
+Computer Programming
+211
+https://images-na.ssl-images-amazon.com/images/I/51rmlxN57sL._SX258_BO1,204,203,200_.jpg
+English
+O’Reilly Media
+support@oreilly.com
+
+7 -----------------------
+Clean Code
+Computer Programming
+317
+https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg
+English
+Robert C. Martin
+roberyc.m@gmail.com
+
+8 -----------------------
+When We Believed in Mermaids
+Psychological Fiction
+120
+https://images-na.ssl-images-amazon.com/images/I/41upRgW3ppL._SX331_BO1,204,203,200_.jpg
+English
+Barbara O'Neal
+barbaraO@gmail.com
+
+
+var booksExample = [
+  {
+    name: "Atomic Habits",
+    type: "Social Psychology",
+    urlImg: "https://m.media-amazon.com/images/I/513Y5o-DYtL.jpg",
+    price: 192,
+    language: "English",
+    author: {
+      name: "James Clear",
+      email: "james.clear@gmail.com"
+    }
+  },
+  {
+    name: "A Promised Land",
+    type: "Biographies",
+    urlImg: "https://m.media-amazon.com/images/I/41N0ibSKKyL.jpg",
+    price: 216,
+    language: "English",
+    author: {
+      name: "Barack Obama",
+      email: "ObamaBarack@gmail.com"
+    }
+  },
+  {
+    name: "Will",
+    type: "Biographies",
+    urlImg: "https://m.media-amazon.com/images/I/61gS6EWmWwL.jpg",
+    price: 311,
+    language: "English",
+    author: {
+      name: "Will Smith",
+      email: "willSmith@gmail.com"
+    }
+  },
+  {
+    name: "Cracking the Coding Interview",
+    type: "Job Interviewing",
+    urlImg: "https://images-na.ssl-images-amazon.com/images/I/41oYsXjLvZL._SX348_BO1,204,203,200_.jpg",
+    price: 230,
+    language: "English",
+    author: {
+      name: "Gayle Laakmann McDowell",
+      email: "gayle.l@gmail.com"
+    }
+  },
+  {
+    name: "Introduction to Algorithms",
+    type: "Computer Programming",
+    urlImg: "https://images-na.ssl-images-amazon.com/images/I/41T0iBxY8FL._SX440_BO1,204,203,200_.jpg",
+    price: 219,
+    language: "English",
+    author: {
+      name: "The MIT Press",
+      email: "mitPress@mit.com"
+    }
+  },
+  {
+    name: "Head First Design Patterns",
+    type: "Computer Programming",
+    urlImg: "https://images-na.ssl-images-amazon.com/images/I/51rmlxN57sL._SX258_BO1,204,203,200_.jpg",
+    price: 211,
+    language: "English",
+    author: {
+      name: "O’Reilly Media",
+      email: "support@oreilly.com"
+    }
+  },
+  {
+    name: "When We Believed in Mermaids",
+    type: "Psychological Fiction",
+    urlImg: "https://images-na.ssl-images-amazon.com/images/I/41upRgW3ppL._SX331_BO1,204,203,200_.jpg",
+    price: 120,
+    language: "English",
+    author: {
+      name: "Barbara O'Neal",
+      email: "barbaraO@gmail.com"
+    }
+  },
+  {
+    name: "Clean Code",
+    type: "Computer Programming",
+    urlImg: "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+    price: 317,
+    language: "English",
+    author: {
+      name: "Robert C. Martin",
+      email: "roberyc.m@gmail.com"
+    }
+  },
+
+]
+
+
+
+

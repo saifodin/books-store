@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="myStyle.css" />
+    <link rel="stylesheet" href="fonts/GTWalsheimPro.css" />
+  </head>
+  <body>
+    <!-- display none, for generate card in js only, put in cards -->
+    <div class="card templateCard" >
+      <div class="name">
+        <div class="bookImg">
+          <img alt="book" src=""></img>
+        </div>
+        <div class="bookName">
+          <span id="bookName"></span>
+          <span id="bookType"></span>
+        </div>
+      </div>
+      <div class="price">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="author">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="manage">
+        <div id="editOrSave">
+          <img src="imgs/pencil.svg" alt="edit">
+        </div>
+        <span class="vLine"></span>
+        <div id="deleteOrCancel" >
+          <img src="imgs/garbage.svg" alt="delete">
+        </div>
+      </div>
+    </div>
+    <!-- display none, for generate card in js only, put in cards -->
+    <h2 class="editTitle templateTitle">Edit Information</h2>
+
+
+    <div class="app">
+      <header>
+        <h1>Books</h1>
+      </header>
+      <main>
+        <section class="addBook">
+          <form name="addBook">
+            <input type="text" name="bookName" placeholder="Book Name" />
+            <input type="text" name="bookType" placeholder="Book Type" />
+            <input type="text" name="urlImg" placeholder="URL Img" />
+            <input type="number" name="price" placeholder="Price" />
+            <input type="text" name="language" placeholder="Language" />
+            <input type="text" name="authorName" placeholder="Author Name" />
+            <input type="email" name="authorEmail" placeholder="Author email" />
+            <button name="addBookButton">Add Book</button>
+          </form>
+        </section>
+        <section class="booksCards">
+          <div class="titles">
+            <span>book</span>
+            <span>price</span>
+            <span>author</span>
+            <span>manage</span>
+          </div>
+          <div class="cards">
+            <!-- put card here -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="myjs.js"></script>
+  </body>
+</html>
